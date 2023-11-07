@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--slick slider css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" 
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" 
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze:ital,wght@1,600&family=Nunito+Sans:wght@200;300&family=Nunito:ital,wght@1,800&family=Roboto:ital,wght@0,100;1,100;1,400&display=swap" 
+    rel="stylesheet">
+    <!-- custom css -->
+    <title>Slider Section</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section class="banner_slider">
+        <div class="slide">
+            <div class="slide_content">
+                <p>Welcome to Home Interior</p>
+                <h2>Making Your Home More Beautiful</h2>
+                <div class="button_wrap">
+                    <a href="#" class="btn btn_transparent">view more</a>
+                    <a href="#" class="btn">our portfolio</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide slide_two">
+            <div class="slide_content">
+                <p>Welcome to Home Interior</p>
+                <h2>Best Ideas For Your Home Interiors</h2>
+                <div class="button_wrap">
+                    <a href="#" class="btn btn_transparent">view more</a>
+                    <a href="#" class="btn">our portfolio</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide slide-three">
+            <div class="slide_content">
+                <p>Welcome to Home Interior</p>
+                <h2>Making Your Home More Beautiful</h2>
+                <div class="button_wrap">
+                    <a href="#" class="btn btn_transparent">view more</a>
+                    <a href="#" class="btn">our portfolio</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide-four">
+            <div class="slide_content">
+                <p>Welcome to Home Interior</p>
+                <h2>Making Your Home More Beautiful</h2>
+                <div class="button_wrap">
+                    <a href="#" class="btn btn_transparent">view more</a>
+                    <a href="#" class="btn">our portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--jequery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--slick slider js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" 
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $('.banner_slider').slick({
+            dots: true,
+            arrows: true,
+            infinite: true,
+            speed: 1000,
+            slidesToShow: 1,
+            adaptiveHeight: true,
+            drag: true,
+            preArrow: '<div class="slick-arrow prev"><span class="fa fa-angle-left"></span></div>',
+            preArrow: '<div class="slick-arrow next"><span class="fa fa-angle-right"></span></div>'
+        })
+    </script>
+</body>
+</html>
